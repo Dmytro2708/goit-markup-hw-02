@@ -25,23 +25,12 @@ ul {
 
 /*------ header -----------*/
 
-.page-header a{
-  color: var(--main-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.page-header a:hover, .page-header a:focus{
-  color: var(--color-activ);
-}
-
-.header-logo{
+.header-logo {
   color: var(--main-color);
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
 }
@@ -50,50 +39,68 @@ ul {
   color: var(--color-brand);
 }
 
+.list-nav a {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-/* header
-border-bottom: 1px solid #E7E9FC; */
+.list-nav a:hover,
+.list-nav a:focus {
+  color: var(--color-activ);
+}
 
-/* logo
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-WEB color: #4D5AE5;
-studio color: #2E2F42; */
+.list-contact a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-/* header nav
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #2E2F42; 
-color activ #404BBF;*/
+.list-contact a:hover,
+.list-contact a:focus {
+  color: var(--color-activ);
+}
 
-/* header addres 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-color activ #404BBF;*/
+.page-header {
+  border-bottom: 1px solid var(--color-border);
+}
 
-/* ------------------------------------------------------------------------------ */
+/*------ main studio ----------*/
+/*------ hero -----------*/
 
-/* hero text
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-color: #FFFFFF; */
+.hero {
+  background-color: var(--main-color);
+  text-align: center;
+}
 
-/* hero background-color
-background: #2E2F42; */
+.hero-title {
+  color: var(--main-background-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
 
+.hero-button {
+  color: var(--main-background-color);
+  background-color: var(--color-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-activ);
+}
+
+/* -------------------------------------------------------------------------------- */
 /* hero button
 font-family: 'Roboto';
 font-style: normal;
