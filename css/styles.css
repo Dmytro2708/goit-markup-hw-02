@@ -1,7 +1,233 @@
-*{
-    margin: 0;
-    padding: 0;
+:root {
+  --color-brand: #4d5ae5;
+  --color-activ: #404bbf;
+  --color-border: #e7e9fc;
+  --main-color: #2e2f42;
+  --secondary-color: #434455;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
 }
-ul{
-    list-style: none;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/*------ header -----------*/
+
+.page-header a{
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-header a:hover, .page-header a:focus{
+  color: var(--color-activ);
+}
+
+.header-logo{
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.logo-word {
+  color: var(--color-brand);
+}
+
+
+/* header
+border-bottom: 1px solid #E7E9FC; */
+
+/* logo
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+WEB color: #4D5AE5;
+studio color: #2E2F42; */
+
+/* header nav
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #2E2F42; 
+color activ #404BBF;*/
+
+/* header addres 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+color activ #404BBF;*/
+
+/* ------------------------------------------------------------------------------ */
+
+/* hero text
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+color: #FFFFFF; */
+
+/* hero background-color
+background: #2E2F42; */
+
+/* hero button
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background: #4D5AE5 
+color activ #404BBF;
+*/
+
+/* -------------------------------------------------------------------------------- */
+
+/* Section 1 features
+h2
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+text
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+*/
+
+/* -------------------------------------------------------------------------------- */
+
+/* Section  What are we doing 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #2E2F42;
+
+border-bottom: 1px solid #E7E9FC;
+*/
+
+/* ------------------------------------------------------------------------------- */
+
+/* section team
+background: #F4F4FD;
+
+h2
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #2E2F42;
+
+h3
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+
+text
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455; */
+
+/* --------------------------------------------------------------------------- */
+
+/* portfolio Filters
+
+botton
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+Button Text 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4D5AE5;
+
+botton hover
+background: #404BBF;
+text color: #FFFFFF;
+*/
+
+/* ------------------------------------------------------------------------------------ */
+
+/*  portfolio card 
+border: 1px solid #E7E9FC;
+
+h2
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+
+text
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+*/
+
+/*------ footer -----------*/
+
+.footer-content {
+  background-color: var(--main-color);
+}
+.footer-logo {
+  color: var(--secondary-background-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+}
+
+.footer-text {
+  color: var(--secondary-background-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
