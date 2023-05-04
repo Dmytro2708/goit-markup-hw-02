@@ -3,11 +3,11 @@
   --color-activ: #404bbf;
   --color-border: #e7e9fc;
 
-  --main-color:#434455;
+  --main-color: #434455;
   --secondary-color: #2e2f42;
   --main-background-color: #ffffff;
   --secondary-background-color: #f4f4fd;
-} 
+}
 
 * {
   margin: 0;
@@ -28,7 +28,6 @@ ul {
 
 .header-logo {
   color: var(--color-brand);
-  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -37,33 +36,48 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .logo-word {
   color: var(--secondary-color);
 }
 
-.list-nav a {
-  color: var(--main-color);
+.list {
+  list-style: none;
   text-decoration: none;
+}
+
+.text-nav {
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.list-nav a:hover,
-.list-nav a:focus {
+.text-nav:hover,
+.text-nav:focus {
   color: var(--color-activ);
 }
 
-.list-contact a {
-  color: var(--secondary-color);
+.header-contact{
+  font-style: normal;
+}
+
+
+.text-contact {
+  color: var(--main-color);
   text-decoration: none;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.list-contact a:hover,
-.list-contact a:focus {
+.text-contact:hover,
+.text-contact:focus {
   color: var(--color-activ);
 }
 
@@ -78,17 +92,11 @@ ul {
   font-size: 36px;
   line-height: 1.11;
 }
-.main-list h3 {
-  
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
 
 /*------Section 1 hero -----------*/
 
 .hero {
-  background-color: var(--main-color);
+  background-color: var(--secondary-color);
   text-align: center;
 }
 
@@ -97,14 +105,17 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   color: var(--main-background-color);
   background-color: var(--color-brand);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -117,23 +128,30 @@ ul {
 
 /*------Section 2 features -----------*/
 
-.features-text{
+.features-item{
   color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-text {
+  color: var(--main-color);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*------Section 3 What are we doing -----------*/
 
-
-
 /*------Section 4 team -----------*/
 
-.team-content{
+.team-content {
   background-color: var(--secondary-background-color);
 }
 
-.team-list p{
+.team-list p {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.5;
@@ -144,36 +162,36 @@ border-bottom: 1px solid #E7E9FC;
 
 /*------portfolio -----------*/
 
-.portfolio-filter button{
-background-color: var(--secondary-background-color);
-border: 1px solid var(--color-border);
-border-radius: 4px;
-color: var(--color-brand);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
+.portfolio-filter button {
+  background-color: var(--secondary-background-color);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .portfolio-filter button:hover,
-.portfolio-filter button:focus{
+.portfolio-filter button:focus {
   color: var(--main-background-color);
   background-color: var(--color-activ);
   cursor: pointer;
 }
 
-.portfolio-card li{
+.portfolio-card li {
   border: 1px solid var(--color-border);
 }
 
-.portfolio-card h2{
+.portfolio-card h2 {
   font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-.portfolio-card p{
-font-size: 16px;
-line-height: 1.5;
+.portfolio-card p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* ------------------------------------------------------------------------------------ */
