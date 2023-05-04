@@ -87,11 +87,7 @@ ul {
 
 /*------ main studio ----------*/
 
-.main-list h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-}
+
 
 /*------Section 1 hero -----------*/
 
@@ -128,6 +124,7 @@ ul {
 
 /*------Section 2 features -----------*/
 
+
 .features-item{
   color: var(--secondary-color);
   font-weight: 500;
@@ -145,16 +142,24 @@ ul {
 
 /*------Section 3 What are we doing -----------*/
 
+.work {
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 /*------Section 4 team -----------*/
 
 .team-content {
   background-color: var(--secondary-background-color);
 }
 
-.team-list p {
-  color: var(--secondary-color);
-  font-size: 16px;
-  line-height: 1.5;
+.team-item{
+  background-color: var(--main-background-color);
 }
 
 /* section team
@@ -198,37 +203,23 @@ border-bottom: 1px solid #E7E9FC;
 
 /*  portfolio card 
 
-
-h2
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #2E2F42;
-
-text
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-*/
-
 /*------ footer -----------*/
 
 .footer-content {
-  background-color: var(--main-color);
+  background-color: var(--secondary-color);
 }
 .footer-logo {
-  color: var(--secondary-background-color);
-  text-decoration: none;
-  text-transform: uppercase;
+  color: var(--color-brand);
+   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-word{
+  color: var(--secondary-background-color);
 }
 
 .footer-text {
