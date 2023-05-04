@@ -2,11 +2,12 @@
   --color-brand: #4d5ae5;
   --color-activ: #404bbf;
   --color-border: #e7e9fc;
-  --main-color: #2e2f42;
-  --secondary-color: #434455;
+
+  --main-color:#434455;
+  --secondary-color: #2e2f42;
   --main-background-color: #ffffff;
   --secondary-background-color: #f4f4fd;
-}
+} 
 
 * {
   margin: 0;
@@ -26,17 +27,18 @@ ul {
 /*------ header -----------*/
 
 .header-logo {
-  color: var(--main-color);
+  color: var(--color-brand);
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-word {
-  color: var(--color-brand);
+  color: var(--secondary-color);
 }
 
 .list-nav a {
