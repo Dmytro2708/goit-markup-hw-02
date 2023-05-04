@@ -70,7 +70,20 @@ ul {
 }
 
 /*------ main studio ----------*/
-/*------ hero -----------*/
+
+.main-list h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.main-list h3 {
+  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*------Section 1 hero -----------*/
 
 .hero {
   background-color: var(--main-color);
@@ -100,105 +113,71 @@ ul {
   background-color: var(--color-activ);
 }
 
-/* -------------------------------------------------------------------------------- */
-/* hero button
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-background: #4D5AE5 
-color activ #404BBF;
-*/
+/*------Section 2 features -----------*/
 
-/* -------------------------------------------------------------------------------- */
+.features-text{
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-/* Section 1 features
-h2
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #2E2F42;
-text
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-*/
+/*------Section 3 What are we doing -----------*/
 
-/* -------------------------------------------------------------------------------- */
 
-/* Section  What are we doing 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-color: #2E2F42;
 
-border-bottom: 1px solid #E7E9FC;
-*/
+/*------Section 4 team -----------*/
 
-/* ------------------------------------------------------------------------------- */
+.team-content{
+  background-color: var(--secondary-background-color);
+}
+
+.team-list p{
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /* section team
-background: #F4F4FD;
+border-bottom: 1px solid #E7E9FC;
 
-h2
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 40px;
-color: #2E2F42;
+/*------portfolio -----------*/
 
-h3
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #2E2F42;
-
-text
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455; */
-
-/* --------------------------------------------------------------------------- */
-
-/* portfolio Filters
-
-botton
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
+.portfolio-filter button{
+background-color: var(--secondary-background-color);
+border: 1px solid var(--color-border);
 border-radius: 4px;
-
-Button Text 
-font-family: 'Roboto';
-font-style: normal;
+color: var(--color-brand);
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-color: #4D5AE5;
+line-height: 1.5;
+}
 
-botton hover
-background: #404BBF;
-text color: #FFFFFF;
-*/
+.portfolio-filter button:hover,
+.portfolio-filter button:focus{
+  color: var(--main-background-color);
+  background-color: var(--color-activ);
+  cursor: pointer;
+}
+
+.portfolio-card li{
+  border: 1px solid var(--color-border);
+}
+
+.portfolio-card h2{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.portfolio-card p{
+font-size: 16px;
+line-height: 1.5;
+}
 
 /* ------------------------------------------------------------------------------------ */
 
 /*  portfolio card 
-border: 1px solid #E7E9FC;
+
 
 h2
 font-family: 'Roboto';
