@@ -167,37 +167,31 @@ border-bottom: 1px solid #E7E9FC;
 
 /*------portfolio -----------*/
 
-.portfolio-filter button {
-  background-color: var(--secondary-background-color);
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  color: var(--color-brand);
+.filter-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-brand);
+  background-color: var(--secondary-background-color);
+  border: 1px solid var(--color-border);
+  border-radius: 4px; 
 }
 
-.portfolio-filter button:hover,
-.portfolio-filter button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--main-background-color);
   background-color: var(--color-activ);
   cursor: pointer;
 }
 
-.portfolio-card li {
-  border: 1px solid var(--color-border);
-}
-
-.portfolio-card h2 {
+.portfolio-card {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.portfolio-card p {
-  font-size: 16px;
-  line-height: 1.5;
-}
 
 /* ------------------------------------------------------------------------------------ */
 
